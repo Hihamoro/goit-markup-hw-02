@@ -6,7 +6,6 @@
     --contact-color: rgba(255, 255, 255, 0.6);
     --filter-color: #F5F4FA;
     --main-background: #2F303A;
-    ;
     --hero-background: #F5F4FA;
 }
 
@@ -23,7 +22,6 @@ body {
 /* header */
 
 .top {
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -32,7 +30,6 @@ body {
 
 .logo-beginning {
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -42,7 +39,6 @@ body {
 
 .logo-continuation {
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -82,9 +78,11 @@ body {
 }
 
 /* main index */
+.cap {
+    background-color: var(--main-background);
+}
 
 .main-name {
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -95,7 +93,6 @@ body {
 }
 
 .order-button {
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
@@ -114,7 +111,6 @@ body {
 }
 
 .secondary-name {
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -123,7 +119,6 @@ body {
 }
 
 .characteristic {
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -132,8 +127,6 @@ body {
 }
 
 .description {
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -141,7 +134,6 @@ body {
 }
 
 .developer {
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
@@ -150,8 +142,6 @@ body {
 }
 
 .position {
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
@@ -162,7 +152,6 @@ body {
 /* main portfolio */
 
 .name-portfolio {
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -173,7 +162,6 @@ body {
 }
 
 .filter-button {
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -194,7 +182,6 @@ body {
 }
 
 .project-name {
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -203,8 +190,6 @@ body {
 }
 
 .project-type {
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
@@ -214,12 +199,18 @@ body {
 /* footer */
 
 .bottom {
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     background-color: var(--main-background);
+}
+
+.logo-foot {
+    color: var(--button-color);
+}
+
+.footer-contacts {
+    font-style: normal;
 }
 
 .location {
